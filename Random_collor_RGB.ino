@@ -22,12 +22,12 @@ void loop()
   analogWrite(blue, random(256));
   analogWrite(green, random(256));    
   
-  delay(1000);                         //wait one second    
+  delay(9000);                         //wait one second    
   
   analogWrite(red, LOW);
   analogWrite(green, LOW);
   analogWrite(blue, LOW);
-  delay(100); 
+  delay(1000); 
   }
   
 }
